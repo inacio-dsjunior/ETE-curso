@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $("#ret1").click(function(){
+        $(this).hide("slow")
+    })
+    $("#ret2").click(function(){
+        $(this).hide("fast")
+    })
+    $("#ret3").click(function(){
+        $(this).hide("5000")
+    })
+    $("#ret4").click(function(){
+        $(".retangulo").show()
+    })
+})

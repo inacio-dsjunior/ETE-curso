@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+.retangulo {
+    margin: auto;
+    border: 2px solid black;
+}
+
+#ret0 {
+    width: 600px;
+    background-color: gray ;
+}
+
+#ret1 { 
+    background-color: red;
+}
+
+#ret2 {
+    background-color: yellow;
+}
+
+#ret3 {
+    background-color: green;
+}
+
+#ret0 div {   
+    font-style: italic; 
+    margin: 30px auto;
+    width: 60px;
+    height: 60px;
+}
